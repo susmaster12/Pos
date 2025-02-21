@@ -21,7 +21,7 @@ server_address_maps = 'https://static-maps.yandex.ru/v1?'
 map_params = {
     "ll": ll,
     "spn": spn,
-    "apikey": 'STATIC_MAPS_KEY',
+    "apikey": STATIC_MAPS_KEY,
     "pt": "{0},pm2dgl".format(ll)
 }
 map_file = make_mapBr(server_address_maps, map_params)
